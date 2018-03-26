@@ -1,2 +1,2 @@
-# Proj
+# Projects
 projects
