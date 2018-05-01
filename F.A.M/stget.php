@@ -10,7 +10,7 @@
   </head>
   <body>
   <?php
-	$con=mysqli_connect("mysql7.000webhost.com","a9317919_ravi","raviiot8","a9317919_steel");
+	$con=mysqli_connect("","","","");
 
 	if (mysqli_connect_errno())
 	{
