@@ -4,7 +4,7 @@
 <?php
 
 
-$db=mysqli_connect("mysql7.000webhost.com","a9317919_ravi","raviiot8","a9317919_steel")or die("unable to connect");
+$db=mysqli_connect("","","","")or die("unable to connect");
 $temp=mysqli_real_escape_string($db,$_GET['temp']);
 $ir=mysqli_real_escape_string($db,$_GET['door']);
 $product=mysqli_real_escape_string($db,$_GET['prod']);
